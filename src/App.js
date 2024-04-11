@@ -39,7 +39,7 @@ function App() {
     },
   ];
   const handleNewQuote = () => {
-    return (setQuoteIdx (Math.floor(Math.random() * quotes.length)));
+    return setQuoteIdx(Math.floor(Math.random() * quotes.length));
   };
 
   return (
@@ -70,6 +70,7 @@ function App() {
             <a
               href="https://twitter.com/intent/tweet"
               target="_blank"
+              rel="noreferrer"
               className="social"
               style={{ backgroundColor: `${newColor}`, color: "white" }}
             >
@@ -78,6 +79,7 @@ function App() {
             <a
               href="https://instagram.com/"
               target="_blank"
+              rel="noreferrer"
               className="social"
               style={{ backgroundColor: `${newColor}`, color: "white" }}
             >
